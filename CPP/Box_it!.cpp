@@ -31,3 +31,4 @@ ostream& operator<<(ostream& out, Box& B) {
 
     return out;
 }
+

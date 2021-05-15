@@ -19,9 +19,10 @@ int main() {
         cin>>choice;
         if (choice == 1) {
             cin>>name>>mark;
-           
+           // mark_sum = mark_sum + mark; 
+            //MAP.insert(make_pair(name,mark_sum));
             MAP[name] += mark;
-            
+             //cout<<"\n"<<name<<" "<<mark_sum<<"\n";
         }
         if (choice == 2) {
             cin>>name;
